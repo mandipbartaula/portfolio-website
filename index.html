@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for a student or developer looking for opportunities."
+    />
+    <title>Mandip Bartaula | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#home" class="logo">Mandip Bartaula</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Mandip Bartaula</h1>
+            <p class="intro">
+              I am a BTech AI student at KU, passionate about building simple, useful, and accessible digital experiences.
+            </p>
+            <a class="primary-btn" href="#projects">View Projects</a>
+          </div>
+          <div class="hero-card" aria-label="Profile summary card">
+            <p>Available for internships</p>
+            <ul>
+              <li>Web Development</li>
+              <li>Problem Solving</li>
+              <li>Learning by Building</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Who I am</h2>
+          </div>
+
+          <div class="about-grid">
+            <div>
+              <p>
+                I am a BTech AI student at Kathmandu University, interested in learning how technology can solve real-world problems through innovation and thoughtful design.
+              </p>
+              <p>
+                I enjoy exploring web development, data-driven thinking, and practical projects that help me grow as a future technology professional.
+              </p>
+            </div>
+
+            <div class="skills-box">
+              <h3>Skills</h3>
+              <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Responsive Design</li>
+                <li>UI Basics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Project One</h3>
+              <p>A simple landing page built to practice layout, colors, and responsive design.</p>
+              <a href="https://example.com" target="_blank" rel="noreferrer">View project</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Project Two</h3>
+              <p>A small web app that demonstrates JavaScript interactivity and clean user experience.</p>
+              <a href="https://example.com" target="_blank" rel="noreferrer">View project</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Project Three</h3>
+              <p>A portfolio mockup focused on readability, accessibility, and mobile-first design.</p>
+              <a href="https://example.com" target="_blank" rel="noreferrer">View project</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-box">
+          <div class="section-heading left-align">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect</h2>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Mandip Bartaula</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
